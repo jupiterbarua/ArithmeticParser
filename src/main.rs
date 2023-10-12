@@ -23,7 +23,7 @@ fn main() {
                 match evalute(input) {
                     Ok(val) => println!("The computed number is {}\n", val),
                     Err(_) => {
-                        println!("Please enter valid expression")
+                        println!("Please enter a valid expression")
                     }
                 };
             }
